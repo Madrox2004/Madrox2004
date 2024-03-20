@@ -4,7 +4,7 @@ def findbmi():
     h=float(entrh.get())
     w=float(entrw.get())
     h=h/100
-    bmi=w/(h*h)
+    bmi=w/(h*h) 
     txtbmi.delete(0.0,"end")
     txtad.delete(0.0,"end")
     txtbmi.insert(END,round(bmi,1))
